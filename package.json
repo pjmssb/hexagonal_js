@@ -1,0 +1,19 @@
+{
+  "name": "hexatareas",
+  "version": "0.0.1",
+  "description": "hexagonal archicture example with a TO DO List ",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pjmssb/hexagonal_js.git"
+  },
+  "keywords": [
+    "hesagonal architecture",
+    "ports & adapters"
+  ],
+  "author": "Pablo J. Mogollon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pjmssb/hexagonal_js/issues"
+  },
+  "homepage": "https://github.com/pjmssb/hexagonal_js#readme"
+}
