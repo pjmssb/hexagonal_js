@@ -3,9 +3,9 @@ const crud_argument = process.argv[3];
 const ENTORNO = "CLI";
  
 
-switch (command) {
+switch (crud_command) {
   case "CREATE":
-    if (argument) {
+    if (crud_argument) {
       console.log(`Comando ${crud_command} recibido con el argumento ${crud_argument}`);
     } else {
       console.log(`Falta el segundo argumento para el comando ${crud_command}`);
@@ -15,7 +15,7 @@ switch (command) {
   case "DELETE":
   case "UPDATE":
   case "READ":
-    if (argument && !isNaN(crud_argument)) {
+    if (crud_argument && !isNaN(crud_argument)) {
       console.log(`Comando ${crud_command} recibido con el argumento ${crud_argument}`);
     } else {
       console.log(`El segundo argumento debe ser un número para el comando ${crud_command}`);
